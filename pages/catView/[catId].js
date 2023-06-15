@@ -28,8 +28,8 @@ function CatView({ cat }) {
         placeholder="blur"
         blurDataURL="assets/images.jpg"
         src={cat.url}
-        width={cat.width / 3}
-        height={cat.height / 3}
+        width={cat.width / 2}
+        height={cat.height / 2}
       />
     </Box>
   );
